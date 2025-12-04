@@ -1,58 +1,174 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# LARAVEL-ACTION-BREEZE-WEATHER
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+*Weather Made Simple. Experience Unmatched Clarity*
 
-## About Laravel
+![Laravel](https://img.shields.io/badge/laravel-v11.x-red)
+![Vue](https://img.shields.io/badge/vue-v3.x-green)
+![Tailwind](https://img.shields.io/badge/tailwind-v3.x-blue)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+*Built with the tools and technologies:*
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+![Inertia](https://img.shields.io/badge/Inertia.js-9553E9?style=for-the-badge&logo=inertia&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 
-## Learning Laravel
+## Table of Contents
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Testing](#testing)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Overview
 
-## Laravel Sponsors
+Laravel Action Breeze Weather is a modern weather application built with Laravel Actions architecture, featuring real-time weather data integration with a beautiful Vue.js frontend. This project combines the power of Laravel's backend capabilities with Inertia.js for seamless SPA experiences, styled with Tailwind CSS for a professional interface.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Getting Started
 
-### Premium Partners
+### Prerequisites
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+This project requires the following dependencies:
 
-## Contributing
+- **Programming Language:** PHP 8.2+
+- **Package Manager:** Composer, Npm
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Installation
 
-## Code of Conduct
+Build laravel-action-breeze-weather from the source and install dependencies:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+1. **Clone the repository:**
 
-## Security Vulnerabilities
+```bash
+git clone https://github.com/anggavb/laravel-action-breeze
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+2. **Navigate to the project directory:**
+
+```bash
+cd laravel-action-breeze
+```
+
+3. **Install the dependencies:**
+
+Using **composer**:
+
+```bash
+composer install
+```
+
+Using **npm**:
+
+```bash
+npm install
+```
+
+4. **Set up environment:**
+
+```bash
+cp .env.example .env
+php artisan key:generate
+```
+
+5. **Configure database:**
+
+```bash
+php artisan migrate
+```
+
+### Usage
+
+Run the project with:
+
+Using **composer**:
+
+```bash
+php artisan serve
+```
+
+Using **npm**:
+
+```bash
+npm run dev
+```
+
+### Testing
+
+Laravel Action Breeze Weather uses the **pest framework** test framework. Run the test suite with:
+
+Using **composer**:
+
+```bash
+vendor/bin/phpunit
+```
+
+Using **npm**:
+
+```bash
+npm test
+```
+
+## Features
+
+### Weather Application
+- 🌤️ **Real-time Weather Data:** Integration with OpenWeatherMap API
+- 🌍 **Global City Search:** Search weather for any city worldwide
+- 📱 **Responsive Design:** Beautiful UI optimized for all devices
+- 🔐 **Authentication Protected:** Secure access after user login
+- ⚡ **Fast Performance:** Built with modern web technologies
+- 🎨 **Tailwind CSS Styling:** Professional and clean interface
+
+### Technical Stack
+- **Backend:** Laravel 11.x with Actions architecture
+- **Frontend:** Vue.js 3.x with Inertia.js
+- **Styling:** Tailwind CSS
+- **Database:** SQLite (configurable)
+- **API Integration:** OpenWeatherMap API
+- **Build Tool:** Vite
+
+### Weather Data Display
+- Current temperature and weather conditions
+- Humidity and wind speed information
+- "Feels like" temperature
+- Weather icons and descriptions
+- Location-based weather tips
+
+## Configuration
+
+### OpenWeatherMap API Setup
+
+1. Register at [OpenWeatherMap](https://openweathermap.org/api)
+2. Get your free API key
+3. Add to your `.env` file:
+
+```env
+OPENWEATHER_API_KEY=your_api_key_here
+```
+
+**Note:** The application works with demo data when API key is not configured.
+
+## Architecture
+
+### Laravel Actions
+This project uses Laravel Actions for a clean, organized codebase:
+
+- `WeatherAction.php` - Handles weather-related routes and logic
+- Action-based routing for better code organization
+- Middleware protection for authenticated routes
+
+### Frontend Structure
+- `Weather.vue` - Main weather component
+- `AuthenticatedLayout.vue` - Navigation with weather menu
+- Axios for API communication
+- Vue 3 Composition API
 
 ## License
 
