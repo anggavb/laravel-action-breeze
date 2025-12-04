@@ -32,6 +32,8 @@
 
 Laravel Simple Weather is a modern weather application built with Laravel Actions architecture, featuring real-time weather data integration with a beautiful Vue.js frontend. This project combines the power of Laravel's backend capabilities with Inertia.js for seamless SPA experiences, styled with Tailwind CSS for a professional interface.
 
+![Overview](./overview.png)
+
 ## Getting Started
 
 ### Prerequisites
