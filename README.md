@@ -1,8 +1,8 @@
-# LARAVEL-ACTION-BREEZE-WEATHER
+# Laravel Simple Weather
 
 *Weather Made Simple. Experience Unmatched Clarity*
 
-![Laravel](https://img.shields.io/badge/laravel-v11.x-red)
+![Laravel](https://img.shields.io/badge/laravel-v12.x-red)
 ![Vue](https://img.shields.io/badge/vue-v3.x-green)
 ![Tailwind](https://img.shields.io/badge/tailwind-v3.x-blue)
 
@@ -30,7 +30,7 @@
 
 ## Overview
 
-Laravel Action Breeze Weather is a modern weather application built with Laravel Actions architecture, featuring real-time weather data integration with a beautiful Vue.js frontend. This project combines the power of Laravel's backend capabilities with Inertia.js for seamless SPA experiences, styled with Tailwind CSS for a professional interface.
+Laravel Simple Weather is a modern weather application built with Laravel Actions architecture, featuring real-time weather data integration with a beautiful Vue.js frontend. This project combines the power of Laravel's backend capabilities with Inertia.js for seamless SPA experiences, styled with Tailwind CSS for a professional interface.
 
 ## Getting Started
 
@@ -48,13 +48,13 @@ Build laravel-action-breeze-weather from the source and install dependencies:
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/anggavb/laravel-action-breeze
+git clone https://github.com/anggavb/laravel-simple-weather.git
 ```
 
 2. **Navigate to the project directory:**
 
 ```bash
-cd laravel-action-breeze
+cd laravel-simple-weather
 ```
 
 3. **Install the dependencies:**
@@ -127,7 +127,7 @@ npm test
 - 🎨 **Tailwind CSS Styling:** Professional and clean interface
 
 ### Technical Stack
-- **Backend:** Laravel 11.x with Actions architecture
+- **Backend:** Laravel 12.x with Actions architecture
 - **Frontend:** Vue.js 3.x with Inertia.js
 - **Styling:** Tailwind CSS
 - **Database:** SQLite (configurable)
